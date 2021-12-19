@@ -7,7 +7,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import accuracy_score,classification_report,plot_confusion_matrix
-import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
